@@ -1,0 +1,89 @@
+body{
+    height: 100vh;
+    font-family: "Poppins", sans-serif;
+}
+.header{
+    margin-top: 30px;
+    width: 700px;
+    height: 750px;
+    background: rgba(167, 248, 46, 0.89);
+    margin-left: 300px;
+}
+.main{
+    position: relative;
+    top: 80px;
+    left: 130px;
+    width: 450px;
+    height: 600px;
+    background: white;
+    border-radius: 20px; 
+}
+img{
+    width: 320px;
+    height: 130px;
+    border-radius: 20px;
+    margin-left: 65px;
+}
+p{
+    margin-top: -20px;
+    margin-left: 150px;
+    font-size: 35px;
+    color: gray;
+}
+h2{
+    margin-left: 70px;
+    font-size: 30px;
+    letter-spacing: 1px;
+    margin-top: -20px;
+    color: rgb(1, 132, 255);
+}
+input{
+    width: 300px;
+    height: 35px;
+    border-radius: 5px;
+    border: none;
+    position: relative;
+    top: 20px;
+    left: 70px;
+    color: rgba(128, 128, 128, 0.61);
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+button{
+    border: none;
+    width: 300px;
+    height: 35px;
+    border-radius: 10px;
+    background: rgba(0, 68, 255, 0.726);
+    color: white;
+    margin-left: 70px;
+    margin-top: 20px;
+}
+.fa-user{
+    position: relative;
+    left: 40px;
+    top: 20px;
+    color: gray;
+}
+.fa-lock{
+    position: relative;
+    left: 40px;
+    top: 20px;
+    color: gray;
+}
+h4{
+    margin-left: 150px;
+    color: rgba(42, 95, 209, 0.904);
+}
+.button{
+    display: flex;
+    gap: 20px;
+    width: 200px;
+    height: 30px;
+}
+.button button{
+    background: none;
+    border-radius: 2px;
+    color: rgba(42, 95, 209, 0.904);
+    width: 400px;
+    box-shadow: rgba(33, 35, 38, 0.1) 0px 8px 8px -8px;
+}
